@@ -23,6 +23,8 @@ The Wordpress plugin for DotSpots enables the DotSpots engine for every page on 
 
 == Frequently Asked Questions ==
 
+Visit our FAQ <a href="http://dotspots.com/about/faq">here</a>.
+
 == Changelog ==
 
 = 1.0 =
