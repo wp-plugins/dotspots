@@ -27,5 +27,8 @@ Visit our FAQ <a href="http://dotspots.com/about/faq">here</a>.
 
 == Changelog ==
 
+= 1.1 =
+* Added reach widget.
+
 = 1.0 =
 * Initial release.
