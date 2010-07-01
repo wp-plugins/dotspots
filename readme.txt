@@ -3,7 +3,7 @@ Contributors: mmastrac
 Tags: dotspots, plugin, semantic, comments, dots, ugc
 Requires at least: 2.7
 Tested up to: 2.9
-Stable tag: 1.1
+Stable tag: 1.2
 
 DotSpots enables anyone to update the news and blogs in real-time with dots: mini-blog posts, including videos, pictures, documents and links.
 
@@ -26,6 +26,9 @@ The Wordpress plugin for DotSpots enables the DotSpots engine for every page on 
 Visit our FAQ <a href="http://dotspots.com/about/faq">here</a>.
 
 == Changelog ==
+
+= 1.2 =
+* Bug fixes
 
 = 1.1 =
 * Added reach widget.
