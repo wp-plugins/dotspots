@@ -119,7 +119,7 @@ function dotspots_filter_reach_content($arg) {
 add_filter('the_content', 'dotspots_filter_reach_content');
 
 function dotspots_action_reach_footer($arg) {
-  echo '<script type="text/javascript" src="http://scripts.staging.dotspots.com/reachwidget-wordpress.js"> </script>';
+  echo '<script type="text/javascript" src="http://scripts.dotspots.com/reachwidget-wordpress.js"> </script>';
 }
 add_action('wp_footer', 'dotspots_action_reach_footer');
 
