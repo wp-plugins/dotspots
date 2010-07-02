@@ -1,7 +1,7 @@
 <?php 
 /*
  * Plugin Name: DotSpots
- * Version: 1.1
+ * Version: 1.3
  * Plugin URI: http://dotspots.com/tools/wordpress
  * Description: Enables <a href="http://dotspots.com/">DotSpots</a> on your site. After enabling this plugin visit <a href="options-general.php?page=dotspots.php">the settings page</a> and enter your DotSpots publisher ID. You can <a href="http://dotspots.com/goto/settings/publisher">get a publisher key here</a>.
  * Author: DotSpots, inc.
@@ -119,7 +119,7 @@ function dotspots_filter_reach_content($arg) {
 add_filter('the_content', 'dotspots_filter_reach_content');
 
 function dotspots_action_reach_footer($arg) {
-  echo '<script type="text/javascript" src="http://scripts.staging.dotspots.com/reachwidget-wordpress.js"> </script>';
+  echo '<script type="text/javascript" src="http://scripts.dotspots.com/reachwidget-wordpress.js"> </script>';
 }
 add_action('wp_footer', 'dotspots_action_reach_footer');
 
